@@ -21,3 +21,4 @@ use App\Http\Controllers\Api\AlunoController;
 
 
 Route::apiResource('alunos', AlunoController::class);
+Route::post('alunos/login', [AlunoController::class, 'login']);
